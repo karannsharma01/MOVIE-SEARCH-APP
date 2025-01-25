@@ -13,24 +13,31 @@
 **MENTOR NAME**: NEELA SANTHOSH
 
 # DESCRIPTION:
-The Weather Dashboard is a web application built with React that allows users to retrieve real-time weather information for any city worldwide. It uses the OpenWeatherMap API to fetch current weather conditions, such as temperature, humidity, wind speed, and a short description of the weather. The application is designed with a clean and responsive interface, making it accessible and user-friendly on both desktop and mobile devices.
+The Movie App is a web application built with React that enables users to search for movies, view detailed information, and manage their favorite movies. It leverages the OMDB API to fetch comprehensive movie data, including titles, release years, posters, and brief descriptions. The application is designed with a modern, responsive user interface, making it easy to use on both desktop and mobile devices.
 
 ## Tools and Technologies Used:
-1. React.js: Core library for building the interactive user interface.
-React's state management (useState) to handle form inputs and display weather data dynamically.
-2. Axios: A popular HTTP client library used to make API requests to the OpenWeatherMap API.
-3. OpenWeatherMap API: Source for real-time weather data, providing details like temperature, humidity, and weather conditions.
-4. Bootstrap: CSS framework used for basic styling and layout to ensure consistency and responsiveness.
 
+1. React.js: Core library for building the interactive user interface, including dynamic state management with useState and useEffect for seamless updates to movie data.
+2. Axios: A reliable HTTP client library used to make API requests to the OMDB API for fetching movie details.
+3. OMDB API: Source for detailed movie data, including title, year, poster, and additional information.
+4. Bootstrap: CSS framework used to create a clean, responsive, and visually appealing design.
+5. React Router: Facilitates navigation between different sections of the app, such as Home, Search, and Favorites.
 ## How It Works:
-1. Input Field: Users can type a city name into the input field and submit their request.
-2. API Integration: The application sends a request to the OpenWeatherMap API with the entered city name.
-3. Data Display: If the city is found, the weather data is displayed on a card with details such as:
-Temperature (°C)
-Weather description (e.g., clear sky, rain)
-Humidity
-Wind speed
-4. Error Handling: If the city name is invalid, the user receives an error message prompting them to try again.
+
+1. Home Section: Displays a collection of popular movies fetched from the OMDB API when the app loads.
+2. Search Feature: Users can enter a movie name in the search bar and fetch relevant results by clicking the "Search" button.
+3. Favorites Section: Allows users to add movies to their list of favorites and remove them as needed, ensuring easy access to their preferred films.
+4. Data Display: Movie data is displayed in neatly styled cards, showing:
+Movie title
+Release year
+5. Movie poster
+6. Error Handling: If a movie is not found or an invalid search query is entered, the app provides a user-friendly error message.
+## Key Features:
+
+1. Responsive design ensures usability on various devices.
+2. Intuitive navigation between sections (Home, Search, Favorites).
+3. Dynamic updates of the movie list and favorites with smooth interaction.
+This application is ideal for movie enthusiasts looking for an easy and enjoyable way to browse and manage their favorite films.
 
 # OUTPUT:
 
