@@ -30,8 +30,8 @@ The Movie App is a web application built with React that enables users to search
 4. Data Display: Movie data is displayed in neatly styled cards, showing:
 Movie title
 Release year
-5. Movie poster
-6. Error Handling: If a movie is not found or an invalid search query is entered, the app provides a user-friendly error message.
+Movie poster
+5. Error Handling: If a movie is not found or an invalid search query is entered, the app provides a user-friendly error message.
 ## Key Features:
 
 1. Responsive design ensures usability on various devices.
