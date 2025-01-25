@@ -34,4 +34,4 @@ Wind speed
 
 # OUTPUT:
 
-![WeatherDashboard](https://github.com/user-attachments/assets/a7162222-ca47-459e-a4c7-9bb42983f6a4)
+![Image](https://github.com/user-attachments/assets/bb057efa-a2b7-47ef-a3e8-d15104731ab7)
